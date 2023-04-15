@@ -1,12 +1,11 @@
-import axios from "axios"
 import products from "../data/data.json" assert { type: "json" };
 
 export const getProducts = async (req,res) => {
     try{
-        const {name} = req.params
+        const {name} = req.query
         console.log(name)
         if(name){
-          const productFiltrados = products.filter((p) => p.name === name)
+          const productFiltrados = products.filter((p) => p.name.toLowerCase() === name.toLowerCase())
           return res.status(200).send(productFiltrados)
         }
         res.status(201).send(products)
