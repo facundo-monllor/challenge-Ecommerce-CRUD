@@ -8,7 +8,7 @@ const productsRouter = Router();
 // }
 
 productsRouter.get('/', getProducts)
-productsRouter.get('/:namee', getProducts)
+productsRouter.get('/:name', getProducts)
 // productsRouter.post('/', compaaa)
 // productsRouter.put('/', compaaa)
 // productsRouter.delete('/', compaaa)
