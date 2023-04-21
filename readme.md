@@ -31,3 +31,4 @@ A continuación se muestra un ejemplo de cómo podría ser la estructura del arc
 ### Json
 
 [ { "id": 1, "name": "Camiseta", "description": "Camiseta de algodón 100% de alta calidad", "price": 20, "image": "https://ejemplo.com/camiseta.jpg" }, { "id": 2, "name": "Pantalón", "description": "Pantalón de tela vaquera de alta resistencia", "price": 40, "image": "https://ejemplo.com/pantalon.jpg" }, { "id": 3, "name": "Zapatos", "description": "Zapatos deportivos cómodos y duraderos", "price": 50, "image": "https://ejemplo.com/zapatos.jpg" } ] 
+
